@@ -6,8 +6,8 @@ let name = "Siphumelele";
 // 2. Declare a variable 'age' and assign your age to it.
 let age = 25;
 
-// 3. Declare a variable 'isStudent' and assign it to a boolean value indicating
-//    whether you are a student or not.
+// 3. Declare a variable 'isStudent' and assign it to a boolean 
+//    value indicating whether you are a student or not.
 let isStudent = true;
 
 // 4. Print all three variables.
