@@ -13,7 +13,7 @@ let isStudent = true;
 // 4. Print all three variables.
 
 // printing name
-// console.log(name)
+console.log(name)
 // printing age
 console.log(age)
 // printing isStudent
