@@ -18,3 +18,23 @@ console.log(name)
 console.log(age)
 // printing isStudent
 console.log(isStudent)
+
+// ------------------------------------------------------------------------------------------
+
+// Exercise 2: Variable (Reassignment)
+
+// 1. Declare a variable 'favouriteColour' and assign your favourite colour to it.
+let favouriteColour = "Blue";
+
+// 2. Print the value of favoriteColour.
+console.log(favouriteColour)
+
+// 3. Reassign favouriteColour to a different colour.
+favouriteColour = "Red";
+
+// 4. Print the new value of favouriteColour.
+console.log(favouriteColour)
+
+
+// ------------------------------------------------------------------------------------------
+
