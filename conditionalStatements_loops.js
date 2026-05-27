@@ -4,20 +4,68 @@
 
 // 1. Write a code using if else statements to check the temperature
 //    and print a message based on the following conditions:
-// a. If the temperature is below 0, print "It's freezing!"
-// b. If the temperature is between 0 and 15, print "It's cold."
-// c. If the temperature is between 16 and 25, print "It's mild."
-// d. If the temperature is above 25, print "It's warm."
+    let temperature = 20;
+    // a. If the temperature is below 0, print "It's freezing!"
+    if (temperature < 0) {
+        console.log("It's freezing!")
+    // b. If the temperature is between 0 and 15, print "It's cold."
+    } else if (0 <= temperature <= 15) {
+        console.log("It's cold.")
+    // c. If the temperature is between 16 and 25, print "It's mild."
+    } else if (16 <= temperature <= 25) {
+        console.log("It's mild.")
+    // d. If the temperature is above 25, print "It's warm."
+    } else if (temperature > 25) {
+        console.log("It's warm.")
+    }
+
 // 2. Rewrite the code using Switch Statements.
+
+    switch (true) {
+        case (temperature < 0): 
+            console.log("It's freezing!");
+            break;
+        case (0 <= temperature <= 15): 
+            console.log("It's cold.");
+            break;
+        case (16 <= temperature <= 25): 
+            console.log("It's mild.");
+            break;
+        case (temperature > 25): 
+            console.log("It's warm.");
+    }
 
 // Exercise 2: Divisibility Check
 // 1. Write a code using if else statements to check if a number is
 //    divisible by 2, 3, or both:
-// a. If the number is divisible both by 2 and 3, print "Divisible by both."
-// b. If the number is divisible by only 2, print "Divisible by 2."
-// c. If the number is divisible by only 3, print "Divisible by 3."
-// d. If the number is not divisible by either, print "Not divisible by 2 or 3."
+    let number = 11;
+    // a. If the number is divisible both by 2 and 3, print "Divisible by both."
+    if (number % 2 == 0 && number % 3 == 0) {
+        console.log("Divisible by both 2 and 3.");
+    // b. If the number is divisible by only 2, print "Divisible by 2."
+    } else if (number % 2 == 0) {
+        console.log("Divisible by 2.");
+    // c. If the number is divisible by only 3, print "Divisible by 3."
+    } else if (number % 3 == 0) {
+        console.log("Divisible by 3.");
+    // d. If the number is not divisible by either, print "Not divisible by 2 or 3."
+    } else if (!number % 2 == 0 && !number % 3 == 0) {
+        console.log("Not divisible by 2 or 3.");
+    }
+
 // 2. Rewrite the code using switch statements.
+
+switch (true) {
+    case (number % 2 == 0 && number % 3 == 0):
+        console.log("Divisible by both 2 and 3.");
+        break;
+    case (number % 2 == 0):
+        console.log("Divisible by 2.");
+    case (number % 3 == 0):
+        console.log("Divisible by 3");
+    case (!number % 2 == 0 && !number % 3 == 0):
+        console.log("Not divisible by 2 or 3.");
+}
 
 // Exercise 3: For loops 
 // 1. Print numbers from 1 to 10.
